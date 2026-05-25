@@ -14,7 +14,7 @@ services:
       - "3307:3306"
 
     volumes:
-      - database-heavy-mysql_data:/var/lib/mysql
+      - database_heavy_mysql_data:/var/lib/mysql
 
 volumes:
   database_heavy_mysql_data:
